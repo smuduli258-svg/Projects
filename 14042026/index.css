@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+/* Navigation bar */
+
+.navigation{
+    background:#333;
+    padding:15px;
+    text-align:center;
+}
+
+.navigation a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+}
+
+.navigation a:hover{
+    color:yellow;
+}
+
+/* Hero section */
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+    color:white;
+}
+
+.hero h1{
+    font-size:40px;
+}
+
+.hero p{
+    font-size:18px;
+    margin:15px 0;
+}
+
+button{
+    padding:10px 20px;
+    font-size:16px;
+    border:none;
+    background:#333;
+    color:white;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background:black;
+}
+.navigation a.active{
+    color: yellow;
+    font-weight: bold;
+}
